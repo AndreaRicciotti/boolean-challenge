@@ -1,0 +1,83 @@
+body{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: monospace;
+}
+
+header{
+  text-align: center;
+}
+
+header > img{
+  width: 22%;
+  height: 22%;
+  margin-top: 8%;
+  margin-bottom: 10px;
+}
+
+header > h1{
+  font-size: 38px;
+  color: rgb(0,255,10);
+  margin-top: 1px;
+}
+
+.contenitore{
+  background-color: rgba(0,0,0,0.55);
+  width: 1500px;
+  height: 1300px;
+  border-radius: 25px;
+  margin: auto;
+}
+
+nav{
+  background-color: rgb(0,255,10);
+  width: 85%;
+  height: 4%;
+  margin: auto;
+  display: grid;
+  place-items: center;
+}
+
+main {
+  width: 85%;
+  margin: auto;
+  color: white;
+  font-size: 18px;
+}
+
+main h2{
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+span{
+  display: block;
+  margin-top: 7px;
+}
+
+.caricagino22{
+  background-color: orange;
+  border-radius: 5px;
+  width: 35%;
+  height: 28px;
+  margin-top: 7px;
+}
+
+.caricamike24{
+  background-color: red;
+  border-radius: 5px;
+  width: 15%;
+  height: 28px;
+  margin-top: 7px;
+}
+
+.caricafede154{
+  background-color: green;
+  border-radius: 5px;
+  width: 75%;
+  height: 28px;
+  margin-top: 7px;
+}
